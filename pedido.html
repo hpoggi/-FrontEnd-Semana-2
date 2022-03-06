@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+				<meta charset="UTF-8">
+				<title></title>
+		</head>
+		<body>
+				<nav class="menu">
+						<ul>
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Pastelero</a></li>
+						</ul>
+				</nav>
+				<h1>Aqui se hace el pedido</h1>
+				<form action="pedido.js">
+						<label for="Nombre">Danos tu nombre</label>
+						<br>
+						<input type="text"id="Nombre"name="Nombre" placeholder="Nombre">
+						<br>
+						<label for="Telefono">Danos tu telefono</label>
+						<br>
+						<input type="tel"id="Telefono"name="Telefono" placeholder="Telefono">
+						<br>
+						<label for="Email">Danos tu email</label>
+						<br>
+						<input type="email"id="Email"name="Email" placeholder="Email">
+						<br>
+						<label for="Descripcion">Danos la descripcion general del pastel</label>
+						<br>
+						<input type="textarea" id="Descripcion" name="Descripcion" placeholder="Descripcion General">
+						<br>
+						<br>
+						<h2>Selecciona los sabores</h2>
+						<br>
+						<input type="checkbox" id = "vainilla" >
+						<label for="vainilla">Vainilla<label>
+										<br>
+										<input type="checkbox" id = "chocolate" >
+										<label for="chocolate">Chocolate<label>
+														<br>
+														<input type="checkbox" id = "tres_leches" >
+														<label for="tres_leches">Tres Leches<label>
+																		<br>
+																		<input type="checkbox" id = "cheese" >
+																		<label for="cheese">CheeseCake de Fresa<label>
+																						<br>
+
+
+																						<h2>Selecciona los adornos</h2>
+																						<input type="radio" id="happy" name="adornos" value="happy">
+																						<label for="happy">Happy Birthday</label>
+																						<br>
+																						<input type="radio" id="velitas" name="adornos" value="velitas">
+																						<label for="velitas">Velitas</label>
+																						<br>
+																						<input type="radio" id="marido" name="adornos" value="marido">
+																						<label for="marido">Figura de marido y mujer</label>
+																						<br>
+																						<input type="radio" id="custom" name="adornos" value="custom">
+																						<label for="custom">Figura personalizada de 5*15</label>
+																						<br>
+																						<input type="reset">
+																						<input type="submit">
+				</form>
+		</body>
+</html>
